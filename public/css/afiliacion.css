@@ -1,0 +1,107 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.mayuscula{
+  text-transform: uppercase;
+}
+
+/*Estilos de colores de la aplicacion*/
+body{
+  background-color: #880202;
+}
+footer.footer, .panel-body{
+  background-color: #F2FB5F;
+}
+.navbar-default{
+  background-color: black;
+  border-color: black;
+} 
+.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:hover{
+  color: #F2FB5F;
+}
+.navbar-default .navbar-nav>.open>a, 
+.navbar-default .navbar-nav>.open>a:focus, 
+.navbar-default .navbar-nav>.open>a:hover{
+  color: #F2FB5F;
+  background-color: #880202;
+}
+.dropdown-menu{
+  background-color: #F2FB5F;
+}
+.dropdown-menu>li>a:hover{
+  color: #F2FB5F;
+  background-color: #880202;
+}
+.dropdown-menu .divider{
+  background-color: #880202;
+}
+.panel-default{
+  border-color: #F2FB5F;
+}
+.panel-default>.panel-heading{
+  color: #F2FB5F;
+  background-color: #880202;
+  border-color: #F2FB5F;
+}
+.panel-footer{
+  background-color:  #880202;
+  border-top: 1px solid #F2FB5F;
+}
+.dataTables_wrapper {
+    background-color: #F2FB5F;
+}
+.pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover {
+  color: #f2fb5f;
+  cursor: not-allowed;
+  background-color: #880202;
+  border-color: #880202;
+}
+.table-bordered{
+  border: 1px solid #880202;
+  background-color: #F2FB5F;
+}
+.table-bordered>tbody>tr>td, .table-bordered>thead>tr>th, .table-bordered>tbody>tr>th{
+  border: 1px solid #880202;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #880202;
+    color: #F2FB5F;
+}
+.modal-header {
+    border-bottom: 1px solid #F2FB5F;
+}
+.modal-footer{
+  border-top: 1px solid #F2FB5F;
+}
